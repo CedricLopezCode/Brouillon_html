@@ -3,12 +3,30 @@ body{}
 /*.flexbox{
 	background: red;
 
-	display: flex;
-	/*justify-content: space-between; /*prend le maximum de place en espacant les elemenrs*/
-	/*justify-content: space-around; /*met de l'espace autour*/
-	/*justify-content: flex-end; /*pour coller à droite*/
+	display: flex; /*https://dev.to/joyshaheb/flexbox-cheat-sheets-in-2021-css-2021-3edl*/
+	
 	/*flex-direction: row; /*ligne*/ /*row-reverse = ligne en japonais*/
 	/*flex-direction: column; /*aligne en colonne*//*column-reverse aussi*/
+
+	/*justify-content: space-between; /*prend le maximum de place en espacant les elements*/
+	/*justify-content: space-around; /*met de l'espace autour*/
+	/*justify-content: space-evenly; /*met de l'espace autour avec plus d'espace autour*/
+	/*justify-content: flex-end; /*pour coller à droite*//*flex-start pour coller à gauche*/
+
+	/*align-content: center; /*comme justify-content*//*avec les memes valeurs mais dans l'axe perpendiculaire*/
+	/*align-content: stretch; /*agrandi les éléments pour qu'ils prennent toutes la hauteur de la flexbox après avoir fait le flex*/
+
+	/*align-items: center; /*à laquelle les éléments sont alignés dans l'axe perpendiculaire*/
+	/*align-items: stretch; /*tous les éléments prennent toutes la hauteur possibles*/
+	/*align-items: baseline; /*presque commme center mais plus compliqué*/
+
+	/*flex-wrap : nowrap; /*met sur 1 seule ligne*/
+	/*flex-wrap : wrap; /*fait des retour à la ligne*/
+
+/*}
+flexbox element{
+	/*flex-grow : 1; /*agrandi l'élément*/
+	/*flex-shrink : 1; /*rétréci l'élément*/
 /*}
 .flexbox div{
 	border: 2px solid;
