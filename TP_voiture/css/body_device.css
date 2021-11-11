@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 header img{width: 60px;}
 
@@ -49,4 +50,55 @@ h1{
 	.affichage_article{
 		width: 32%;
 	}
+=======
+header img{width: 60px;}
+
+.affichage_article{
+	display: inline-block;
+	border: solid 1px;
+	padding: 2px;
+	background: gold;
+	min-width: 300px;
+	max-width: 32%;
+	max-height: 400px;
+	margin-bottom: 10px;
+	vertical-align: all;
+}
+
+.affichage_article img{
+	float: top;
+	max-height: 100px;
+	margin-left: 30%;
+}
+.affichage_article table{
+	margin-left: 1px;
+	text-align: center;
+}
+/*.ligne{
+	display: flex;
+	width: all;
+}*/
+
+h1{
+	text-align: center;
+	color: blue;
+}
+/*media pour detecter l'appreil*/
+@media(max-width: 320px){
+	.affichage_article{
+		width: all;
+	 }
+} /*portable*//
+
+@media(min-width: 321px) and (max-width: 750px;){
+	.affichage_article{
+		width: 49%;
+	}
+}
+
+@media(min-width: 751px;){
+	.affichage_article{
+		width: 30%;
+	}
+>>>>>>> b43d5358099e5a81b931c7c4510e183daf412956
 }
